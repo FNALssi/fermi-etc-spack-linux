@@ -1,0 +1,15 @@
+compilers:
+- compiler:
+    spec: gcc@=11.4.1
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    flags: {}
+    operating_system: almalinux9
+    target: x86_64_v3
+    modules: []
+    environment: {}
+    extra_rpaths: []
+
