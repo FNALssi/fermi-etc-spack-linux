@@ -1,6 +1,6 @@
 config:
   extensions:
-  - $spack/var/spack/extensions/spack-linuxexternals
-  - $spack/var/spack/extensions/spack-subspack
+  - $spack/var/spack/extensions/spack-linuxexternals/spack-linuxexternals
+  - $spack/var/spack/extensions/spack-subspack/spack-subspack
   - $spack/var/spack/extensions/spack-mpd
 
