@@ -1,0 +1,4 @@
+repos:
+- $spack/var/spack/repos/nusofthep-spack-recipes
+- $spack/var/spack/repos/larsoft-spack-recipes
+- $spack/var/spack/repos/fnal_art
