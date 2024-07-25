@@ -3,3 +3,4 @@ repos:
 - $spack/var/spack/repos/larsoft-spack-recipes
 - $spack/var/spack/repos/fnal_art
 - $spack/var/spack/repos/artdaq-spack
+- $spack/var/spack/repos/scd_recipes
