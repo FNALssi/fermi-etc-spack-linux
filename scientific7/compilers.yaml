@@ -8,7 +8,7 @@ compilers:
       fc: /usr/bin/gfortran
     flags: {}
     operating_system: scientific7
-    target: x86_64_v3
+    target: x86_64
     modules: []
     environment: {}
     extra_rpaths: []
