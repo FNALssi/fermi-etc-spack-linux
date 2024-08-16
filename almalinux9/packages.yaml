@@ -11,6 +11,12 @@ packages:
       pkgconfig::
         - pkg-config
         - pkgconf
+      libc::
+        - glibc
+      iconv::
+        - glibc
+      rpc::
+        - glibc
   blas:
     require: openblas
   fftw-api:
