@@ -1,3 +1,0 @@
-bootstrap:
-  enable: true
-  root: $spack/var/bootstraps/scientific7
