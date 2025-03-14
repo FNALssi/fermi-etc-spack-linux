@@ -1,4 +1,0 @@
-packages:
-  include:
-  - path: $os/packages.yaml
-    optional: true
