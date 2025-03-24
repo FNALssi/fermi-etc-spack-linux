@@ -1,5 +1,5 @@
 
 # include os specific config directory to support multi-platform package areas
 include:
-- path: "${spack}/etc/spack/${platform}/${os}"
+- path: "${os}"
   optional: true
