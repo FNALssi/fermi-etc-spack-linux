@@ -1,3 +1,5 @@
+
+# include os specific config directory to support multi-platform package areas
 include:
-- path: $os/packages.yaml
+- path: "${spack}/etc/spack/${platform}/${os}"
   optional: true
