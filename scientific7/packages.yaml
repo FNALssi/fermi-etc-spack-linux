@@ -50,7 +50,6 @@ packages:
         - bison
   asciidoc:
     externals:
-<<<<<<< HEAD
     - spec: "asciidoc @8.6.8 os=scientific7"
       prefix: /usr
   autoconf:
@@ -68,30 +67,10 @@ packages:
   bdftopcf:
     externals:
     - spec: "bdftopcf @1.1 os=scientific7"
-=======
-    - spec: "asciidoc @8.6.8 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  autoconf:
-    externals:
-    - spec: "autoconf @2.69 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  autogen:
-    externals:
-    - spec: "autogen @5.18 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  automake:
-    externals:
-    - spec: "automake @1.13.4 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  bdftopcf:
-    externals:
-    - spec: "bdftopcf @1.1 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   berkeley-db:
     externals:
-<<<<<<< HEAD
     - spec: "berkeley-db @5.3.21 os=scientific7"
       prefix: /usr
   binutils:
@@ -117,82 +96,34 @@ packages:
   damageproto:
     externals:
     - spec: "damageproto @1.1 os=scientific7"
-=======
-    - spec: "berkeley-db @5.3.21 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  binutils:
-    externals:
-    - spec: "binutils +gas+gold+ld @2.27 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  bison:
-    externals:
-    - spec: "bison @3.0.4 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  cmake:
-    externals:
-    - spec: "cmake ~ownlibs @2.8.12.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  coreutils:
-    externals:
-    - spec: "coreutils @8.22 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  curl:
-    externals:
-    - spec: "curl @7.29.0 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  damageproto:
-    externals:
-    - spec: "damageproto @1.1 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   diffutils:
     externals:
-<<<<<<< HEAD
     - spec: "diffutils @3.3 os=scientific7"
-=======
-    - spec: "diffutils @3.3 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   expat:
     externals:
-<<<<<<< HEAD
     - spec: "expat @2.1.0 os=scientific7"
-=======
-    - spec: "expat @2.1.0 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   findutils:
     externals:
-<<<<<<< HEAD
     - spec: "findutils @4.5.11 os=scientific7"
-=======
-    - spec: "findutils @4.5.11 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   flex:
     externals:
-<<<<<<< HEAD
     - spec: "flex @2.5.37 os=scientific7"
       prefix: /usr
   font-util:
     externals:
     - spec: "font-util fonts=encodings @7.5 os=scientific7"
-=======
-    - spec: "flex @2.5.37 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  font-util:
-    externals:
-    - spec: "font-util fonts=encodings @7.5 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   fontconfig:
     externals:
-<<<<<<< HEAD
     - spec: "fontconfig @2.13.0 os=scientific7"
       prefix: /usr
   freetype:
@@ -210,56 +141,24 @@ packages:
   gdbm:
     externals:
     - spec: "gdbm @1.10 os=scientific7"
-=======
-    - spec: "fontconfig @2.13.0 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  freetype:
-    externals:
-    - spec: "freetype @2.8 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  gawk:
-    externals:
-    - spec: "gawk @4.0.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  gdb:
-    externals:
-    - spec: "gdb @7.6.1 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  gdbm:
-    externals:
-    - spec: "gdbm @1.10 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   gettext:
     externals:
-<<<<<<< HEAD
     - spec: "gettext ~bzip2+curses~git+libunistring+libxml2~tar+xz @0.19.8.1 os=scientific7"
-=======
-    - spec: "gettext ~bzip2+curses~git+libunistring+libxml2~tar+xz @0.19.8.1 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     # buildable: False
   git:
     externals:
-<<<<<<< HEAD
     - spec: "git @1.8.3.1 os=scientific7"
       prefix: /usr
   glib:
     externals:
     - spec: "glib @2.56.1 os=scientific7"
-=======
-    - spec: "git @1.8.3.1 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  glib:
-    externals:
-    - spec: "glib @2.56.1 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   gmake:
     externals:
-<<<<<<< HEAD
     - spec: "gmake @3.82 os=scientific7"
       prefix: /usr
   gperf:
@@ -273,21 +172,6 @@ packages:
   help2man:
     externals:
     - spec: "help2man @1.41.1 os=scientific7"
-=======
-    - spec: "gmake @3.82 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  gperf:
-    externals:
-    - spec: "gperf @3.0.4 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  groff:
-    externals:
-    - spec: "groff @1.22.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  help2man:
-    externals:
-    - spec: "help2man @1.41.1 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
   hwloc:
     require:
@@ -297,37 +181,21 @@ packages:
         - "%gcc@4.8.5"
   krb5:
     externals:
-<<<<<<< HEAD
     - spec: "krb5 @1.15.1 os=scientific7"
       prefix: /usr
   libc:
     externals:
     - spec: "libc +iconv+rpc @2.17 os=scientific7"
-=======
-    - spec: "krb5 @1.15.1 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  libc:
-    externals:
-    - spec: "libc +iconv+rpc @2.17 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libfontenc:
     externals:
-<<<<<<< HEAD
     - spec: "libfontenc @1.1.3 os=scientific7"
-=======
-    - spec: "libfontenc @1.1.3 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libice:
     externals:
-<<<<<<< HEAD
     - spec: "libice @1.0.9 os=scientific7"
-=======
-    - spec: "libice @1.0.9 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libpciaccess:
@@ -338,7 +206,6 @@ packages:
         - "%gcc@4.8.5"
   libsm:
     externals:
-<<<<<<< HEAD
     - spec: "libsm @1.2.2 os=scientific7"
       prefix: /usr
   libtool:
@@ -352,62 +219,30 @@ packages:
   libx11:
     externals:
     - spec: "libx11 @1.6.7 os=scientific7"
-=======
-    - spec: "libsm @1.2.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  libtool:
-    externals:
-    - spec: "libtool @2.4.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  libuuid:
-    externals:
-    - spec: "libuuid @2.23.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  libx11:
-    externals:
-    - spec: "libx11 @1.6.7 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxau:
     externals:
-<<<<<<< HEAD
     - spec: "libxau @1.0.8 os=scientific7"
-=======
-    - spec: "libxau @1.0.8 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxcb:
     externals:
-<<<<<<< HEAD
     - spec: "libxcb @1.13 os=scientific7"
-=======
-    - spec: "libxcb @1.13 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxdmcp:
     externals:
-<<<<<<< HEAD
     - spec: "libxdmcp @1.1.2 os=scientific7"
-=======
-    - spec: "libxdmcp @1.1.2 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxext:
     externals:
-<<<<<<< HEAD
     - spec: "libxext @1.3.3 os=scientific7"
-=======
-    - spec: "libxext @1.3.3 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxft:
     externals:
-<<<<<<< HEAD
     - spec: "libxft @2.3.2 os=scientific7"
       prefix: /usr
   libxi:
@@ -417,85 +252,45 @@ packages:
   libxmu:
     externals:
     - spec: "libxmu @1.1.2 os=scientific7"
-=======
-    - spec: "libxft @2.3.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  libxi:
-    externals:
-    - spec: "libxi @1.7.9 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  libxmu:
-    externals:
-    - spec: "libxmu @1.1.2 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxpm:
     externals:
-<<<<<<< HEAD
     - spec: "libxpm @3.5.12 os=scientific7"
-=======
-    - spec: "libxpm @3.5.12 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxrender:
     externals:
-<<<<<<< HEAD
     - spec: "libxrender @0.9.10 os=scientific7"
-=======
-    - spec: "libxrender @0.9.10 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxshmfence:
     externals:
-<<<<<<< HEAD
     - spec: "libxshmfence @1.2 os=scientific7"
-=======
-    - spec: "libxshmfence @1.2 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxt:
     externals:
-<<<<<<< HEAD
     - spec: "libxt @1.1.5 os=scientific7"
-=======
-    - spec: "libxt @1.1.5 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxv:
     externals:
-<<<<<<< HEAD
     - spec: "libxv @1.0.11 os=scientific7"
-=======
-    - spec: "libxv @1.0.11 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxvmc:
     externals:
-<<<<<<< HEAD
     - spec: "libxvmc @1.0.10 os=scientific7"
-=======
-    - spec: "libxvmc @1.0.10 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   libxxf86vm:
     externals:
-<<<<<<< HEAD
     - spec: "libxxf86vm @1.1.4 os=scientific7"
-=======
-    - spec: "libxxf86vm @1.1.4 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   lmod:
     externals:
-<<<<<<< HEAD
     - spec: "lmod @8.7.7 os=scientific7"
       prefix: /usr
   m4:
@@ -505,48 +300,24 @@ packages:
   mesa-glu:
     externals:
     - spec: "mesa-glu gl=glx @9.0.0 os=scientific7"
-=======
-    - spec: "lmod @8.7.7 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  m4:
-    externals:
-    - spec: "m4 @1.4.16 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  mesa-glu:
-    externals:
-    - spec: "mesa-glu gl=glx @9.0.0 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   mesa:
     externals:
-<<<<<<< HEAD
     - spec: "mesa +glx~osmesa swr=none @18.3.4 os=scientific7"
       prefix: /usr
   mkfontdir:
     externals:
     - spec: "mkfontdir @7.5 os=scientific7"
-=======
-    - spec: "mesa +glx~osmesa swr=none @18.3.4 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  mkfontdir:
-    externals:
-    - spec: "mkfontdir @7.5 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   mkfontscale:
     externals:
-<<<<<<< HEAD
     - spec: "mkfontscale @7.5 os=scientific7"
-=======
-    - spec: "mkfontscale @7.5 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   mpich:
     externals:
-<<<<<<< HEAD
     - spec: "mpich @3.2 os=scientific7"
       prefix: /usr/lib64/mpich-3.2/
   nasm:
@@ -592,67 +363,15 @@ packages:
   tar:
     externals:
     - spec: "tar @1.26 os=scientific7"
-=======
-    - spec: "mpich @3.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr/lib64/mpich-3.2/
-  nasm:
-    externals:
-    - spec: "nasm @2.10.07 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  ninja:
-    externals:
-    - spec: "ninja @1.10.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  ncurses:
-    externals:
-    - spec: "ncurses ~symlinks+termlib @5.9 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  openssh:
-    externals:
-    - spec: "openssh @7.4p1 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  openssl:
-    externals:
-    - spec: "openssl @1.0.2k os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  patchelf:
-    externals:
-    - spec: "patchelf @0.12 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  perl:
-    externals:
-    - spec: "perl @5.16.3 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  pkg-config:
-    externals:
-    - spec: "pkg-config +internal_glib @0.27.1 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  python:
-    externals:
-    - spec: "python @3.6.8 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  readline:
-    externals:
-    - spec: "readline @6.2 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  tar:
-    externals:
-    - spec: "tar @1.26 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   tcl:
     externals:
-<<<<<<< HEAD
     - spec: "tcl @8.5.13 os=scientific7"
-=======
-    - spec: "tcl @8.5.13 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   texinfo:
     externals:
-<<<<<<< HEAD
     - spec: "texinfo @5.1 os=scientific7"
       prefix: /usr
   texlive:
@@ -664,90 +383,45 @@ packages:
   tk:
     externals:
     - spec: "tk @8.5.13 os=scientific7"
-=======
-    - spec: "texinfo @5.1 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  texlive:
-    externals:
-    - spec: "texlive @2012-45 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-    - spec: "texlive @20220321 os=scientific7 %gcc@4.8.5"
-      prefix: /usr
-  tk:
-    externals:
-    - spec: "tk @8.5.13 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xcb-util-keysyms:
     externals:
-<<<<<<< HEAD
     - spec: "xcb-util-keysyms @0.4.0 os=scientific7"
-=======
-    - spec: "xcb-util-keysyms @0.4.0 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xcb-util-renderutil:
     externals:
-<<<<<<< HEAD
     - spec: "xcb-util-renderutil @0.3.9 os=scientific7"
-=======
-    - spec: "xcb-util-renderutil @0.3.9 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xextproto:
     externals:
-<<<<<<< HEAD
     - spec: "xextproto @7.3.0 os=scientific7"
-=======
-    - spec: "xextproto @7.3.0 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xorg-server:
     externals:
-<<<<<<< HEAD
     - spec: "xorg-server @1.20.4 os=scientific7"
-=======
-    - spec: "xorg-server @1.20.4 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xproto:
     externals:
-<<<<<<< HEAD
     - spec: "xproto @7.0.32 os=scientific7"
-=======
-    - spec: "xproto @7.0.32 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xrandr:
     externals:
-<<<<<<< HEAD
     - spec: "xrandr @1.5.0 os=scientific7"
-=======
-    - spec: "xrandr @1.5.0 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   xtrans:
     externals:
-<<<<<<< HEAD
     - spec: "xtrans @1.3.5 os=scientific7"
-=======
-    - spec: "xtrans @1.3.5 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
   zlib:
     externals:
-<<<<<<< HEAD
     - spec: "zlib +optimize+pic+shared @1.2.7 os=scientific7"
-=======
-    - spec: "zlib +optimize+pic+shared @1.2.7 os=scientific7 %gcc@4.8.5"
->>>>>>> main
       prefix: /usr
     buildable: False
