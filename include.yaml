@@ -1,5 +1,0 @@
-include:
-  - path: "${platform}/${os}"
-    optional: true
-  - path: "${platform}"
-    optional: true
