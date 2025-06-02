@@ -1,5 +1,5 @@
-
-# include os specific config directory to support multi-platform package areas
 include:
-- path: "${os}"
-  optional: true
+  - path: "${platform}/${os}"
+    optional: true
+  - path: "${platform}"
+    optional: true
