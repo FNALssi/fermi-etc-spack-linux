@@ -60,6 +60,10 @@ packages:
     externals:
     - spec: berkeley-db @=5.3.28 os=almalinux9 %gcc@11
       prefix: /usr
+  binutils:
+     externals:
+     - spec: binutils @=2.35.2 os=almalinux9 %gcc@11
+       prefix: /usr
   bison:
     externals:
     - spec: bison @=3.7.4 os=almalinux9 %gcc@11
