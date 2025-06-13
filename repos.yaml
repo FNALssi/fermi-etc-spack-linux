@@ -1,6 +1,16 @@
 repos:
-- $spack/var/spack/repos/nusofthep-spack-recipes
-- $spack/var/spack/repos/larsoft-spack-recipes
-- $spack/var/spack/repos/fnal_art
-- $spack/var/spack/repos/artdaq-spack
-- $spack/var/spack/repos/scd_recipes
+  nusoft:
+    git: https://github.com/gartung/nusofthep-spack-recipes.git
+    destination: $spack/var/spack/repos/nusofthep
+  larsoft:
+    git: https://github.com/LArSoft/larsoft-spack-recipes.git
+    destination: $spack/var/spack/repos/larsoft
+  fnal_art:
+    git: https://github.com/FNALssi/fnal_art.git
+    destination: $spack/var/spack/repos/fnal_art
+  artdaq_spack:
+    git: https://github.com/art-daq/artdaq-spack.git
+    destination: $spack/var/spack/repos/artdaq-spack
+  scd_recips:
+    git: https://github.com/fnal-fife/scd_recipes.git
+    destination: $spack/var/spack/repos/scd_recipes
