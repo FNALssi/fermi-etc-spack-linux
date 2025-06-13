@@ -1,10 +1,10 @@
 repos:
   nusoft:
     git: https://github.com/gartung/nusofthep-spack-recipes.git
-    destination: $spack/var/spack/repos/nusofthep
+    destination: $spack/var/spack/repos/nusofthep-spack-recipes
   larsoft:
     git: https://github.com/LArSoft/larsoft-spack-recipes.git
-    destination: $spack/var/spack/repos/larsoft
+    destination: $spack/var/spack/repos/larsoft-spack-recipes
   fnal_art:
     git: https://github.com/FNALssi/fnal_art.git
     destination: $spack/var/spack/repos/fnal_art
