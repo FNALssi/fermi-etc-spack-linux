@@ -215,6 +215,7 @@ packages:
     externals:
     - spec: libuuid @=2.37.4 os=almalinux9 
       prefix: /usr
+    buildable: false
   libx11:
     externals:
     - spec: libx11 @=1.7.0 os=almalinux9 
