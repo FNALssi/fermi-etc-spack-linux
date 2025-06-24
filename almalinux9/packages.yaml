@@ -288,6 +288,7 @@ packages:
     externals:
     - spec: m4 @=1.4.19 os=almalinux9 
       prefix: /usr
+    buildable: false
   mesa-glu:
     externals:
     - spec: mesa-glu @=9.0.1 os=almalinux9 
