@@ -48,14 +48,17 @@ packages:
     externals:
     - spec: asciidoc @=9.1.0 os=almalinux9
       prefix: /usr
+    buildable: false
   autoconf:
     externals:
     - spec: autoconf @=2.69 os=almalinux9
       prefix: /usr
+    buildable: false
   automake:
     externals:
     - spec: automake @=1.16.2 os=almalinux9
       prefix: /usr
+    buildable: false
   berkeley-db:
     externals:
     - spec: berkeley-db @=5.3.28 os=almalinux9 
@@ -110,6 +113,7 @@ packages:
     externals:
     - spec: flex @=2.6.4 os=almalinux9 
       prefix: /usr
+    buildable: false
   fontconfig:
     externals:
     - spec: fontconfig @=2.14.0 os=almalinux9 
