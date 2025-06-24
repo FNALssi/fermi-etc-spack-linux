@@ -295,8 +295,9 @@ packages:
     buildable: false
   mesa:
     externals:
-    - spec: mesa +glx~osmesa swr=none @=22.3.0 os=almalinux9 
+    - spec: mesa @=22.3.0 os=almalinux9 
       prefix: /usr
+    buildable: false
   mkfontdir:
     externals:
     - spec: mkfontdir @=1.2.1 os=almalinux9 
