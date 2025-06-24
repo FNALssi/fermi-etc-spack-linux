@@ -68,6 +68,7 @@ packages:
     externals:
     - spec: bison @=3.7.4 os=almalinux9 
       prefix: /usr
+    buildable: false
   cigetcert:
     externals:
     - spec: cigetcert @=1.21 os=almalinux9
@@ -84,6 +85,7 @@ packages:
     externals:
     - spec: curl tls=openssl @=7.76.1 os=almalinux9 
       prefix: /usr
+    buildable: false
   damageproto:
     externals:
     - spec: damageproto @=1.1 os=almalinux9
@@ -112,18 +114,22 @@ packages:
     externals:
     - spec: fontconfig @=2.14.0 os=almalinux9 
       prefix: /usr
+    buildable: false
   freetype:
     externals:
     - spec: freetype @=2.10.4 os=almalinux9 
       prefix: /usr
+    buildable: false
   gawk:
     externals:
     - spec: gawk @=5.1.0 os=almalinux9 
       prefix: /usr
+    buildable: false
   gdb:
     externals:
     - spec: gdb @=10.2 os=almalinux9 
       prefix: /usr
+    buildable: false
   gdbm:
     externals:
     - spec: gdbm @=1.19 os=almalinux9 
@@ -179,6 +185,7 @@ packages:
     externals:
     - spec: krb5 @=1.20.1 os=almalinux9 
       prefix: /usr
+    buildable: false
   libfontenc:
     externals:
     - spec: libfontenc @=1.1.3 os=almalinux9 
@@ -314,6 +321,7 @@ packages:
     externals:
     - spec: nasm @=2.15.03 os=almalinux9 
       prefix: /usr
+    buildable: false
   ninja:
     externals:
     - spec: ninja @=1.10.2 os=almalinux9 
