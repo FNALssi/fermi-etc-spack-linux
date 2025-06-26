@@ -66,7 +66,7 @@ packages:
     buildable: false
   binutils:
     externals:
-    - spec: binutils +gas+gold+ld @=2.35.2 os=almalinux9 
+    - spec: binutils @=2.35.2 os=almalinux9 
       prefix: /usr
     buildable: false
   bison:
@@ -81,7 +81,7 @@ packages:
     buildable: false
   cmake:
     externals:
-    - spec: cmake ~ownlibs @=3.20.2 os=almalinux9 
+    - spec: cmake @=3.20.2 os=almalinux9 
       prefix: /usr
     buildable: false
   coreutils:
@@ -151,7 +151,7 @@ packages:
     buildable: false
   gettext:
     externals:
-    - spec: gettext ~bzip2+curses~git+libunistring+libxml2~tar+xz @=0.21 os=almalinux9 
+    - spec: gettext @=0.21 os=almalinux9 
       prefix: /usr
     buildable: false
   git:
@@ -352,7 +352,7 @@ packages:
     buildable: false
   ncurses:
     externals:
-    - spec: ncurses ~symlinks+termlib @=6.2 os=almalinux9 
+    - spec: ncurses @=6.2 os=almalinux9 
       prefix: /usr
     buildable: false
   openssh:
@@ -372,12 +372,12 @@ packages:
     buildable: false
   perl:
     externals:
-    - spec: perl ~open~opcode @=5.32.1 os=almalinux9 
+    - spec: perl @=5.32.1 os=almalinux9 
       prefix: /usr
     buildable: false
   pkg-config:
     externals:
-    - spec: pkg-config +internal_glib @=1.7.3 os=almalinux9 
+    - spec: pkg-config @=1.7.3 os=almalinux9 
       prefix: /usr
     buildable: false
   pkgconf:
@@ -457,6 +457,6 @@ packages:
     buildable: false
   zlib:
     externals:
-    - spec: zlib +optimize+pic+shared @=1.2.11 os=almalinux9 
+    - spec: zlib @=1.2.11 os=almalinux9 
       prefix: /usr
     buildable: false
