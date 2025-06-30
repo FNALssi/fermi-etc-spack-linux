@@ -223,16 +223,6 @@ packages:
     - spec: glibc @2.34 os=almalinux9
       prefix: /usr
       buildable: false
-  libedit:
-    externals:
-    - spec: libedit @3.1 os=almalinux9
-      prefix: /usr
-      buildable: true
-  libfontenc:
-    externals:
-    - spec: libfontenc @1.1.3 os=almalinux9
-      prefix: /usr
-      buildable: false
   libice:
     externals:
     - spec: libice @1.0.10 os=almalinux9
@@ -373,11 +363,6 @@ packages:
     - spec: mkfontscale @1.2.1 os=almalinux9
       prefix: /usr
       buildable: false
-  mpich:
-    externals:
-    - spec: mpich @4.1.1 os=almalinux9
-      prefix: /usr/lib64/mpich
-      buildable: true
   nasm:
     externals:
     - spec: nasm @2.15.03 os=almalinux9
@@ -461,14 +446,6 @@ packages:
     - spec: tk @8.6.10 os=almalinux9
       prefix: /usr
       buildable: false
-  vim:
-    externals:
-    - spec: vim @8.2 os=almalinux9
-      prefix: /usr
-      buildable: true
-    - spec: vim @8.2.2637 os=almalinux9
-      prefix: /usr
-      buildable: true
   xcb-util-image:
     externals:
     - spec: xcb-util-image @0.4.0 os=almalinux9
