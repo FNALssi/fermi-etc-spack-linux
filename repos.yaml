@@ -1,4 +1,7 @@
 repos:
+  dune_spack:
+    git: https://github.com/DUNE/dune_spack.git
+    destination: $spack/var/spack/repos/dune_spack
   nusoft:
     git: https://github.com/gartung/nusofthep-spack-recipes.git
     destination: $spack/var/spack/repos/nusofthep-spack-recipes
@@ -11,6 +14,8 @@ repos:
   artdaq_spack:
     git: https://github.com/art-daq/artdaq-spack.git
     destination: $spack/var/spack/repos/artdaq-spack
-  scd_recips:
+  scd_recipes:
     git: https://github.com/fnal-fife/scd_recipes.git
     destination: $spack/var/spack/repos/scd_recipes
+  builtin:
+    destination: $spack/var/spack/repos/builtin
