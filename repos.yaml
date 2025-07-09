@@ -14,3 +14,5 @@ repos:
   scd_recips:
     git: https://github.com/fnal-fife/scd_recipes.git
     destination: $spack/var/spack/repos/scd_recipes
+  builtin:
+    destination: $spack/var/spack/repos/builtin
