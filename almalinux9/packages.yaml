@@ -1,8 +1,5 @@
 packages:
   all:
-    compiler:
-    - gcc
-    - clang
     target:
     - x86_64_v2
     providers:
