@@ -1,4 +1,10 @@
 repos:
+  sbn-spack:
+    git: https://github.com/gartung/sbn-spack.git
+    destination: $spack/var/spack/repos/sbn-spack
+  wirecell:
+    git: https://github.com/gartung/wire-cell-spack
+    destination: $spack/var/spack/repos/wire-cell-spack
   dune_spack:
     git: https://github.com/DUNE/dune_spack.git
     destination: $spack/var/spack/repos/dune_spack
