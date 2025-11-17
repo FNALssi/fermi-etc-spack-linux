@@ -54,389 +54,311 @@ packages:
     externals:
     - spec: asciidoc @9.1.0 os=almalinux9
       prefix: /usr
-      buildable: false
   autoconf:
     externals:
     - spec: autoconf @2.69 os=almalinux9
       prefix: /usr
-      buildable: false
   automake:
     externals:
     - spec: automake @1.16.2 os=almalinux9
       prefix: /usr
-      buildable: false
   bdftopcf:
     externals:
     - spec: bdftopcf @1.1.2 os=almalinux9
       prefix: /usr
-      buildable: false
   cigetcert:
     externals:
     - spec: cigetcert @1.21 os=almalinux9
       prefix: /usr
-      buildable: false
   coreutils:
     externals:
     - spec: coreutils @8.32 os=almalinux9
       prefix: /usr
-      buildable: false
   curl:
     externals:
     - spec: curl @7.76.1 os=almalinux9
       prefix: /usr
-      buildable: false
   damageproto:
     externals:
     - spec: damageproto @2024.1 os=almalinux9
       prefix: /usr
-      buildable: false
   diffutils:
     externals:
     - spec: diffutils @3.7 os=almalinux9
       prefix: /usr
-      buildable: false
   expat:
     externals:
     - spec: expat @2.5.0 os=almalinux9
       prefix: /usr
-      buildable: false
   findutils:
     externals:
     - spec: findutils @4.8.0 os=almalinux9
       prefix: /usr
-      buildable: false
   font-util:
     externals:
     - spec: font-util @7.5 os=almalinux9
       prefix: /usr
-      buildable: false
   fontconfig:
     externals:
     - spec: fontconfig @2.14.0 os=almalinux9
       prefix: /usr
-      buildable: false
   freetype:
     externals:
     - spec: freetype @2.10.4 os=almalinux9
       prefix: /usr
-      buildable: false
   gawk:
     externals:
     - spec: gawk @5.1.0 os=almalinux9
       prefix: /usr
-      buildable: false
   gdbm:
     externals:
     - spec: gdbm @1.23 os=almalinux9
       prefix: /usr
-      buildable: false
   gettext:
     externals:
     - spec: gettext @0.21 os=almalinux9
       prefix: /usr
-      buildable: false
   git:
     externals:
     - spec: git @2.47.1 os=almalinux9
       prefix: /usr
-      buildable: false
   gtkplus:
     externals:
     - spec: gtkplus @3.24.31 os=almalinux9
       prefix: /usr
-      buildable: false
   gmake:
     externals:
     - spec: gmake @4.3 os=almalinux9
       prefix: /usr
-      buildable: false
   gperf:
     externals:
     - spec: gperf @3.1 os=almalinux9
       prefix: /usr
-      buildable: false
   groff:
     externals:
     - spec: groff @1.22.4 os=almalinux9
       prefix: /usr
-      buildable: false
   help2man:
     externals:
     - spec: help2man @1.48.2 os=almalinux9
       prefix: /usr
-      buildable: false
   htcondor:
     externals:
     - spec: htcondor @23.0.26 os=almalinux9
       prefix: /usr
-      buildable: false
   htgettoken:
     externals:
     - spec: htgettoken @2.2 os=almalinux9
       prefix: /usr
-      buildable: false
   hwloc:
     externals:
     - spec: hwloc @2.4.1 os=almalinux9
       prefix: /usr
-      buildable: false
   krb5:
     externals:
     - spec: krb5 @1.21.1 os=almalinux9
       prefix: /usr
-      buildable: false
   glibc:
     externals:
     - spec: glibc @2.34 os=almalinux9
       prefix: /usr
-      buildable: false
   libice:
     externals:
     - spec: libice @1.0.10 os=almalinux9
       prefix: /usr
-      buildable: false
   libpciaccess:
     externals:
     - spec: libpciaccess @0.16 os=almalinux9
       prefix: /usr
-      buildable: false
   libsm:
     externals:
     - spec: libsm @1.2.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libtirpc:
     externals:
     - spec: libtirpc @1.3.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libtool:
     externals:
     - spec: libtool @2.4.6 os=almalinux9
       prefix: /usr
-      buildable: false
   libuuid:
     externals:
     - spec: libuuid @2.37.4 os=almalinux9
       prefix: /usr
-      buildable: false
   libxau:
     externals:
     - spec: libxau @1.0.9 os=almalinux9
       prefix: /usr
-      buildable: false
   libxcb:
     externals:
     - spec: libxcb @1.13.1 os=almalinux9
       prefix: /usr
-      buildable: false
   libxdmcp:
     externals:
     - spec: libxdmcp @1.1.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libxext:
     externals:
     - spec: libxext @1.3.4 os=almalinux9
       prefix: /usr
-      buildable: false
   libxft:
     externals:
     - spec: libxft @2.3.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libxi:
     externals:
     - spec: libxi @1.7.10 os=almalinux9
       prefix: /usr
-      buildable: false
   libxkbcommon:
     externals:
     - spec: libxkbcommon @1.0.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libxmu:
     externals:
     - spec: libxmu @1.1.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libxpm:
     externals:
     - spec: libxpm @3.5.13 os=almalinux9
       prefix: /usr
-      buildable: false
   libxrender:
     externals:
     - spec: libxrender @0.9.10 os=almalinux9
       prefix: /usr
-      buildable: false
   libxshmfence:
     externals:
     - spec: libxshmfence @1.3 os=almalinux9
       prefix: /usr
-      buildable: false
   libxt:
     externals:
     - spec: libxt @1.2.0 os=almalinux9
       prefix: /usr
-      buildable: false
   libxv:
     externals:
     - spec: libxv @1.0.11 os=almalinux9
       prefix: /usr
-      buildable: false
   libxxf86vm:
     externals:
     - spec: libxxf86vm @1.1.4 os=almalinux9
       prefix: /usr
-      buildable: false
   lmod:
     externals:
     - spec: lmod @8.7.55 os=almalinux9
       prefix: /usr
-      buildable: false
   m4:
     externals:
     - spec: m4 @1.4.19 os=almalinux9
       prefix: /usr
-      buildable: false
   mesa-glu:
     externals:
     - spec: mesa-glu @9.0.1 os=almalinux9
       prefix: /usr
-      buildable: false
   mesa:
     externals:
     - spec: mesa @24.2.8 os=almalinux9
       prefix: /usr
-      buildable: false
   mkfontdir:
     externals:
     - spec: mkfontdir @1.2.1 os=almalinux9
       prefix: /usr
-      buildable: false
   mkfontscale:
     externals:
     - spec: mkfontscale @1.2.1 os=almalinux9
       prefix: /usr
-      buildable: false
   nasm:
     externals:
     - spec: nasm @2.15.03 os=almalinux9
       prefix: /usr
-      buildable: false
   ncurses:
     externals:
     - spec: ncurses @6.2 os=almalinux9
       prefix: /usr
-      buildable: false
   openssh:
     externals:
     - spec: openssh @8.7p1 os=almalinux9
       prefix: /usr
-      buildable: false
   openssl:
     externals:
     - spec: openssl @3.2.2 os=almalinux9
       prefix: /usr
-      buildable: false
   perl:
     externals:
     - spec: perl @5.32.1 os=almalinux9
       prefix: /usr
-      buildable: false
   pkg-config:
     externals:
     - spec: pkg-config @1.7.3 os=almalinux9
       prefix: /usr
-      buildable: false
   pkgconf:
     externals:
     - spec: pkgconf @1.7.3 os=almalinux9
       prefix: /usr
-      buildable: false
   readline:
     externals:
     - spec: readline @8.1 os=almalinux9
       prefix: /usr
-      buildable: false
   tar:
     externals:
     - spec: tar @1.34 os=almalinux9
       prefix: /usr
-      buildable: false
   tcl:
     externals:
     - spec: tcl @8.6.10 os=almalinux9
       prefix: /usr
-      buildable: false
   texinfo:
     externals:
     - spec: texinfo @6.7 os=almalinux9
       prefix: /usr
-      buildable: false
   texlive:
     externals:
     - spec: texlive @20200406 os=almalinux9
       prefix: /usr
-      buildable: false
   tk:
     externals:
     - spec: tk @8.6.10 os=almalinux9
       prefix: /usr
-      buildable: false
   xcb-util-image:
     externals:
     - spec: xcb-util-image @0.4.0 os=almalinux9
       prefix: /usr
-      buildable: false
   xcb-util-keysyms:
     externals:
     - spec: xcb-util-keysyms @0.4.0 os=almalinux9
       prefix: /usr
-      buildable: false
   xcb-util-renderutil:
     externals:
     - spec: xcb-util-renderutil @0.3.9 os=almalinux9
       prefix: /usr
-      buildable: false
   xcb-util-wm:
     externals:
     - spec: xcb-util-wm @0.4.1 os=almalinux9
       prefix: /usr
-      buildable: false
   util-macros:
     externals:
     - spec: util-macros @1.19.3 os=almalinux9
       prefix: /usr
-      buildable: false
   xextproto:
     externals:
     - spec: xextproto @2024.1 os=almalinux9
       prefix: /usr
-      buildable: false
   xorg-server:
     externals:
     - spec: xorg-server @1.20.11 os=almalinux9
       prefix: /usr
-      buildable: false
   xproto:
     externals:
     - spec: xproto @2024.1 os=almalinux9
       prefix: /usr
-      buildable: false
   xrandr:
     externals:
     - spec: xrandr @1.5.2 os=almalinux9
       prefix: /usr
-      buildable: false
   xtrans:
     externals:
     - spec: xtrans @1.4.0 os=almalinux9
       prefix: /usr
-      buildable: false
   zlib:
     externals:
     - spec: zlib @1.2.11 os=almalinux9
       prefix: /usr
-      buildable: false
