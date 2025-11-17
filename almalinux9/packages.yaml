@@ -294,6 +294,10 @@ packages:
     externals:
     - spec: pkgconf @1.7.3 os=almalinux9
       prefix: /usr
+  python:
+    externals:
+    - spec: python @3.9.21 os=almalinux9
+      prefix: /usr
   readline:
     externals:
     - spec: readline @8.1 os=almalinux9
