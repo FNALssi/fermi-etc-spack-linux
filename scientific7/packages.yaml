@@ -52,6 +52,9 @@ packages:
     externals:
     - spec: "asciidoc @8.6.8 os=scientific7"
       prefix: /usr
+      dependencies:
+      - id: system_python
+        deptypes: ["build", "run"]
   autoconf:
     externals:
     - spec: "autoconf @2.69 os=scientific7"
@@ -356,6 +359,7 @@ packages:
     externals:
     - spec: "python @3.6.8 os=scientific7"
       prefix: /usr
+      id: system_python
   readline:
     externals:
     - spec: "readline @6.2 os=scientific7"
