@@ -359,7 +359,6 @@ packages:
     - spec: python @3.9.23 os=almalinux9
       prefix: /usr
       id: system_python
-    buildable: false
   pkg-config:
     externals:
     - spec: pkg-config @1.7.3 os=almalinux9
