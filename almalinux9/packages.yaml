@@ -50,14 +50,6 @@ packages:
       - libuuid
       yacc:
       - bison
-  asciidoc:
-    externals:
-    - spec: asciidoc @9.1.0 os=almalinux9
-      prefix: /usr
-      dependencies:
-      - id: system_python
-        deptypes: ["build", "run"]
-    buildable: false
   autoconf:
     externals:
     - spec: autoconf @2.69 os=almalinux9
@@ -72,14 +64,6 @@ packages:
     externals:
     - spec: bdftopcf @1.1.2 os=almalinux9
       prefix: /usr
-    buildable: false
-  cigetcert:
-    externals:
-    - spec: cigetcert @1.21 os=almalinux9
-      prefix: /usr
-      dependencies:
-      - id: system_python
-        deptypes: ["build", "run"]
     buildable: false
   coreutils:
     externals:
@@ -175,14 +159,6 @@ packages:
     externals:
     - spec: htcondor @23.0.26 os=almalinux9
       prefix: /usr
-    buildable: false
-  htgettoken:
-    externals:
-    - spec: htgettoken @2.2 os=almalinux9
-      prefix: /usr
-      dependencies:
-      - id: system_python
-        deptypes: ["build", "run"]
     buildable: false
   hwloc:
     externals:
@@ -354,11 +330,6 @@ packages:
     - spec: perl @5.32.1 os=almalinux9
       prefix: /usr
     buildable: false
-  python:
-    externals:
-    - spec: python @3.9.23 os=almalinux9
-      prefix: /usr
-      id: system_python
   pkg-config:
     externals:
     - spec: pkg-config @1.7.3 os=almalinux9
