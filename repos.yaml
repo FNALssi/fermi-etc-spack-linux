@@ -2,7 +2,7 @@ repos:
   sbn-spack:
     git: https://github.com/gartung/sbn-spack.git
     destination: $spack/var/spack/repos/sbn-spack
-    branch: spack-v1.0
+    branch: spack-v1.0-old
   wirecell:
     git: https://github.com/gartung/wire-cell-spack
     destination: $spack/var/spack/repos/wire-cell-spack
@@ -34,4 +34,4 @@ repos:
   builtin:
     git: https://github.com/FNALssi/spack-packages.git
     destination: $spack/var/spack/repos/builtin
-    branch: fnal-v2025.11 
+    branch: fnal-v1.1 
