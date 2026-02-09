@@ -2,7 +2,7 @@ repos:
   sbn-spack:
     git: https://github.com/gartung/sbn-spack.git
     destination: $spack/var/spack/repos/sbn-spack
-    branch: spack-v1.0-old
+    branch: spack-v1.0
   wirecell:
     git: https://github.com/gartung/wire-cell-spack
     destination: $spack/var/spack/repos/wire-cell-spack
