@@ -175,11 +175,6 @@ packages:
     - spec: htgettoken @2.2 os=almalinux9
       prefix: /usr
       buildable: false
-  hwloc:
-    externals:
-    - spec: hwloc @2.4.1 os=almalinux9
-      prefix: /usr
-      buildable: false
   krb5:
     externals:
     - spec: krb5 @1.21.1 os=almalinux9
